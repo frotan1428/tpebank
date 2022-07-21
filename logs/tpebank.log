@@ -217,3 +217,65 @@
 2022-07-21 20:15:57,526 INFO  [RMI TCP Connection(2)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
 2022-07-21 20:15:57,529 INFO  [RMI TCP Connection(2)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 3 ms
 2022-07-21 20:16:12,135 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:Resolved [com.tpebank.exception.ResourceNotFoundException: Contact message with id 6 not found]
+2022-07-21 21:23:22,045 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-21 21:23:22,076 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-07-21 21:23:22,091 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-07-21 21:23:50,327 INFO  [restartedMain] com.tpebank.TpebankApplication:Starting TpebankApplication using Java 11.0.13 on DESKTOP-J0DVGRS with PID 14096 (C:\Users\MF\Desktop\WINTER\BankBackendProject\tpebank\target\classes started by MF in C:\Users\MF\Desktop\WINTER\BankBackendProject\tpebank)
+2022-07-21 21:23:50,329 DEBUG [restartedMain] com.tpebank.TpebankApplication:Running with Spring Boot v2.6.9, Spring v5.3.21
+2022-07-21 21:23:50,330 INFO  [restartedMain] com.tpebank.TpebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-07-21 21:23:50,635 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-21 21:23:50,637 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-21 21:23:52,431 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-21 21:23:52,647 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 202 ms. Found 1 JPA repository interfaces.
+2022-07-21 21:23:54,251 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-07-21 21:23:54,315 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-07-21 21:23:54,315 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-21 21:23:54,596 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-07-21 21:23:54,597 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3958 ms
+2022-07-21 21:23:55,256 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-21 21:23:55,446 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-21 21:23:55,740 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-21 21:23:55,909 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-07-21 21:23:56,176 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-07-21 21:23:56,319 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-07-21 21:23:57,878 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-21 21:23:57,889 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-21 21:23:58,516 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-21 21:23:59,438 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-07-21 21:23:59,447 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-21 21:23:59,528 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-21 21:23:59,558 INFO  [restartedMain] com.tpebank.TpebankApplication:Started TpebankApplication in 10.232 seconds (JVM running for 15.264)
+2022-07-21 21:24:00,278 INFO  [RMI TCP Connection(1)-192.168.43.28] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-21 21:24:00,279 INFO  [RMI TCP Connection(1)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-07-21 21:24:00,282 INFO  [RMI TCP Connection(1)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 3 ms
+2022-07-21 21:25:22,409 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-21 21:25:22,415 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2022-07-21 21:25:22,524 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2022-07-21 21:25:37,089 INFO  [restartedMain] com.tpebank.TpebankApplication:Starting TpebankApplication using Java 11.0.13 on DESKTOP-J0DVGRS with PID 3876 (C:\Users\MF\Desktop\WINTER\BankBackendProject\tpebank\target\classes started by MF in C:\Users\MF\Desktop\WINTER\BankBackendProject\tpebank)
+2022-07-21 21:25:37,091 DEBUG [restartedMain] com.tpebank.TpebankApplication:Running with Spring Boot v2.6.9, Spring v5.3.21
+2022-07-21 21:25:37,095 INFO  [restartedMain] com.tpebank.TpebankApplication:No active profile set, falling back to 1 default profile: "default"
+2022-07-21 21:25:37,205 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-21 21:25:37,206 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-21 21:25:39,352 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-21 21:25:39,443 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2022-07-21 21:25:40,373 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2022-07-21 21:25:40,384 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-07-21 21:25:40,384 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-21 21:25:40,527 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-07-21 21:25:40,527 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3319 ms
+2022-07-21 21:25:40,852 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-21 21:25:40,906 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-21 21:25:41,078 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-21 21:25:41,199 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2022-07-21 21:25:41,379 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2022-07-21 21:25:41,434 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-07-21 21:25:42,451 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-21 21:25:42,466 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-21 21:25:42,968 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-21 21:25:43,740 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-07-21 21:25:43,748 INFO  [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-21 21:25:43,824 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-21 21:25:43,856 INFO  [restartedMain] com.tpebank.TpebankApplication:Started TpebankApplication in 8.139 seconds (JVM running for 10.511)
+2022-07-21 21:25:44,708 INFO  [RMI TCP Connection(2)-192.168.43.28] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-21 21:25:44,712 INFO  [RMI TCP Connection(2)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2022-07-21 21:25:44,720 INFO  [RMI TCP Connection(2)-192.168.43.28] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 6 ms
