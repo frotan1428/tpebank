@@ -9,7 +9,6 @@ public class ApiResponseError {
     private  ApiResponseError(){
         timeStamp=LocalDateTime.now();
     }
-
     public ApiResponseError(HttpStatus status){
         this();
         this.status=status;
